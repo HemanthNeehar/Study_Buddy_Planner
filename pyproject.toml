@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "STUDY-ASSISTANT"
+version = "0.1"
+authors = [
+    {name = "Hemanth"}
+]
+description = "AI-powered Study Assistant"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain",
+    "langchain-huggingface",
+    "langchain-groq",
+    "langchain-community",
+    "python-dotenv",
+    "pandas",
+    "streamlit"
+]
+
+[tool.setuptools]
+packages = {find = {}}
