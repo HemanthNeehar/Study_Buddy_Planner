@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB_REPO = "hemanthng/studybuddy_ai:v6"
+        DOCKER_HUB_REPO = "hemanthng/studybuddy_ai:latest"
         DOCKER_HUB_CREDENTIALS_ID = "dockerhub-token"
         IMAGE_TAG = "v${BUILD_NUMBER}"
     }
