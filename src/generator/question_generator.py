@@ -1,4 +1,4 @@
-from langchain.output_parsers import PydanticOutputParser
+from langchain_core.output_parsers import PydanticOutputParser
 from src.llm.groq_client import get_groq_llm
 from src.prompts.templates import mcq_prompt_template, fill_blank_prompt_template
 from src.config.settings import settings
